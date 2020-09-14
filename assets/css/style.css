@@ -49,22 +49,10 @@ body {
 
 /* PROJECT PAGE */
 .content-container {
-  display: flex;
-  max-width: 1200px;
+  max-width: 900px;
   margin-left: auto;
   margin-right: auto;
   margin-top: 20px;
-}
-
-.content-container article {
-  width: 700px;
-  order: 2;
-  margin-left: 100px;
-}
-
-.content-container aside {
-  width: 250px;
-  order: 1;
 }
 
 .content-title {
@@ -72,8 +60,18 @@ body {
   margin-bottom: 5px;
 }
 
+.main-content {
+  margin-top: 50px;
+  margin-bottom: 75px;
+}
+
 .main-content p {
+  width: 700px;
   margin-bottom: 20px;
+}
+
+.gif {
+  width: 900px;
 }
 
 /* MEDIA QUERY */
@@ -89,15 +87,7 @@ body {
     margin-left: auto;
     margin-right: auto;
   }
-  .content-container article {
-    width: 100%;
-    order: 1;
-    margin-left: 0;
-  }
-  .content-container aside {
-    width: 100%;
-    order: 2;
-  }
+
   .grid-container {
     display: block;
   }
