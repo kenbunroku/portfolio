@@ -24,9 +24,13 @@ body {
   position: relative;
   max-width: 360px;
   min-height: 380px;
-  background-color:#fff;
+  background-color: #fff;
   padding: 20px;
   border-radius: 20px;
+}
+
+.project-container:hover {
+  box-shadow: 12px 12px 16px #616161;
 }
 
 .button {
@@ -46,20 +50,20 @@ body {
 /* PROJECT PAGE */
 .content-container {
   display: flex;
-  max-width: 900px;
+  max-width: 1200px;
   margin-left: auto;
   margin-right: auto;
   margin-top: 20px;
 }
 
 .content-container article {
-  width: 61%;
+  width: 700px;
   order: 2;
-  margin-left: 75px;
+  margin-left: 100px;
 }
 
 .content-container aside {
-  width: 35%;
+  width: 250px;
   order: 1;
 }
 
@@ -71,7 +75,6 @@ body {
 .main-content p {
   margin-bottom: 20px;
 }
-
 
 /* MEDIA QUERY */
 @media (max-width: 480px) {
