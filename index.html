@@ -1,48 +1,183 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Shinchiro's Biography</title>
-    <link rel="stylesheet" href="./assets/css/remedy.css">
-    <link rel="stylesheet" href="./assets/css/style.css">
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shinichiro Kuwahara Portfolio</title>
+    <link rel="stylesheet" href="./assets/css/remedy.css" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+  </head>
+  <body>
     <ul class="nav-bar">
-        <li><a href="#home">SHINN</a></li>
-        <li style="float: right;"><a href="#home">About</a></li>
-        <li style="float: right;"><a href="#about">Projects</a></li>
+      <li><a href="./index.html">SHINN</a></li>
+      <li style="float: right"><a href="./about.html">About</a></li>
+      <!-- <li style="float: right"><a href="#about">Projects</a></li> -->
     </ul>
-    
-    <div class="wrapper">
-        <h1>Shinichiro Kuwahara</h1>
-        <p>Second year MDes Student at IIT ID.</p>
-        <p>My background is data analysis and user research at Toyota.</p>
 
-        <h2>My Projects</h2>
-        <main class="grid-container">
-            <section class="project-container">
-                <img src="./assets/images/essential-1-360w.png" alt="Essential">
-                <h3>Essential</h3>
-                <p>AI-powered local delivery that keeps your kitchen stocked with the essentials.</p>
-                <a href="./essential.html" class="button">View Case Study</a>
-            </section>
+    <main class="wrapper">
+      <h1>Hi, I'm SHINN</h1>
+      <h2>A researcher, a data analyst and a designer</h2>
+      <p>My background is data analysis and user research at Toyota.</p>
 
-            <section class="project-container">
-                <img src="./assets/images/teleducation-1-360w.png" alt="Teleducation">
-                <h3>Teleducation</h3>
-                <p>A remote robot that reduces physical learning constraints for students.</p>
-                <a href="./teleducation.html" class="button">View Case Study</a>
-            </section>
+      <div class="category-container">
+        <h2 class="category-name">Mobility</h2>
+        <div class="grid-container">
+          <section class="project-container first">
+            <p class="design-category">UX / UI Design, System Design</p>
+            <a href="./essential.html">
+              <img
+                src="./assets/images/essential-1-1000w.png"
+                alt="Essential"
+              />
+              <div class="project-desc">
+                <h2>Essential</h2>
+                <p>
+                  AI-powered local delivery that keeps your kitchen stocked with
+                  the essentials.
+                </p>
+              </div>
+            </a>
+          </section>
 
-            <section class="project-container">
-                <img src="./assets/images/engardener-1-360w.png" alt="Engardener">
-                <h3>Engardener</h3>
-                <p>A tool box for home gardeners.</p>
-                <a href="./engardener.html" class="button">View Case Study</a>
-            </section>
-        </main>
-    </div>
+          <section class="project-container second">
+            <p class="design-category">User Research</p>
+            <a href="./prius.html">
+              <img src="./assets/images/Prius-1-450w.jpg" alt="Prius" />
+              <div class="project-desc">
+                <h2>Insights of Alt. Fuel Car User</h2>
+                <p>
+                  Quantitative & qualitative analysis to understand user
+                  insights and reevaluate a product core value.
+                </p>
+              </div>
+            </a>
+          </section>
 
-</body>
+          <section class="project-container third">
+            <p class="design-category">UX / UI Design</p>
+            <a href="./timetraveler.html">
+              <img
+                src="./assets/images/timetraveler-1-450w.png"
+                alt="Engardener"
+              />
+              <div class="project-desc">
+                <h2>Time Traveler in Chicago</h2>
+                <p>
+                  An Augumented reality application that passengers in a buy
+                  enjoy the city's history.
+                </p>
+              </div>
+            </a>
+          </section>
+        </div>
+      </div>
+
+      <div class="category-container">
+        <h2 class="category-name">Education</h2>
+        <div class="grid-container">
+          <section class="project-container first">
+            <p class="design-category">
+              Speculative Design, Digital & Physical Design
+            </p>
+            <a href="./teleducation.html">
+              <img
+                src="./assets/images/teleducation-2-1000w.png"
+                alt="Teleducation"
+              />
+              <div class="project-desc">
+                <h2>Teleducation</h2>
+                <p>
+                  A remote robot that reduces physical learning constraints for
+                  students.
+                </p>
+              </div>
+            </a>
+          </section>
+
+          <section class="project-container second">
+            <p class="design-category">UX / UI Design</p>
+            <a href="./flood.html">
+              <img src="./assets/images/teleducation-1-360w.png" alt="Flood" />
+              <div class="project-desc">
+                <h2>Flood</h2>
+                <p>
+                  A boardgame that helps the players learn about how to deal
+                  with the natural desaster.
+                </p>
+              </div>
+            </a>
+          </section>
+
+          <section class="project-container third">
+            <p class="design-category">UX / UI Design</p>
+            <a href="./gozipedia.html">
+              <img
+                src="./assets/images/engardener-1-360w.png"
+                alt="Gozipedia"
+              />
+              <div class="project-desc">
+                <h2>Gozipedia</h2>
+                <p>
+                  A fun learning app of real creatures through "Kaiju", giant
+                  imagenary monsters.
+                </p>
+              </div>
+            </a>
+          </section>
+        </div>
+      </div>
+
+           <div class="category-container">
+        <h2 class="category-name">Product</h2>
+        <div class="grid-container">
+          <section class="project-container first">
+            <p class="design-category">
+              Physical Design
+            </p>
+            <a href="./teleducation.html">
+              <img
+                src="./assets/images/teleducation-2-1000w.png"
+                alt="Teleducation"
+              />
+              <div class="project-desc">
+                <h2>Engardener</h2>
+                <p>
+                  A toolbox for home gardeners
+                </p>
+              </div>
+            </a>
+          </section>
+
+          <section class="project-container second">
+            <p class="design-category">Physical Design</p>
+            <a href="./flood.html">
+              <img src="./assets/images/teleducation-1-360w.png" alt="Flood" />
+              <div class="project-desc">
+                <h2>Slice</h2>
+                <p>
+                  A redefined food slice shooter.
+                </p>
+              </div>
+            </a>
+          </section>
+
+          <section class="project-container third">
+            <p class="design-category">Physical Design</p>
+            <a href="./gozipedia.html">
+              <img
+                src="./assets/images/engardener-1-360w.png"
+                alt="Gozipedia"
+              />
+              <div class="project-desc">
+                <h2>Flactere</h2>
+                <p>
+                  A standing & sitting working desk.
+                </p>
+              </div>
+            </a>
+          </section>
+        </div>
+      </div>
+    </main>
+  </body>
 </html>
