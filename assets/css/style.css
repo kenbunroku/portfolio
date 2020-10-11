@@ -1,6 +1,11 @@
 body {
   background-color: #fafafa;
   font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+img {
+  width: 100%;
 }
 
 .bg {
@@ -9,15 +14,20 @@ body {
 
 .wrapper {
   margin: auto;
-  max-width: 1100px;
+  margin-top: 75px;
+  max-width: 1000px;
 }
 
 .nav-bar {
+  overflow: hidden;
+  position: fixed;
+  top: 0;
   list-style-type: none;
   margin: 0;
-  padding: 0;
-  overflow: hidden;
+  padding: 0 30px;
+  width: 100%;
   background-color: #333;
+  z-index: 999;
 }
 
 .nav-bar li {
@@ -35,39 +45,70 @@ body {
 .nav-bar li a:hover {
   background-color: #111;
 }
+
 /* PROJECTS */
 .grid-container {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-areas:
+    "first first first first"
+    "second second third third";
   grid-gap: 15px;
-  max-width: 1200px;
+  max-width: 1000px;
+}
+
+.first {
+  grid-area: first;
+}
+.second {
+  grid-area: second;
+}
+.third {
+  grid-area: third;
+}
+
+.category-container {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.category-name {
+  color: blue;
+  text-decoration: underline;
 }
 
 .project-container {
   position: relative;
-  max-width: 360px;
-  min-height: 380px;
-  background-color: #fff;
-  padding: 20px;
-  border-radius: 20px;
-  box-shadow: 12px 12px 16px #616161;
 }
 
-.button {
-  display: inline-block;
-  background-color: #bdbdbd;
-  text-decoration: none;
-  border-radius: 30px;
-  color: white;
-  font-size: 1em;
-  padding: 12px;
-  font-weight: bold;
+.project-container > a img {
+  height: 300px;
+  object-fit: cover;
+}
+
+.design-category {
+  color: gray;
+}
+
+.project-desc {
   position: absolute;
-  bottom: 15px;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: white;
+  opacity: 0;
+  transition: opacity 0.3s linear;
 }
 
-.button:hover {
-  background-color: teal;
+.project-container:hover .project-desc {
+  opacity: 1;
+}
+
+.project-container:hover img {
+  filter: blur(1px) brightness(30%);
 }
 
 /* PROJECT PAGE */
