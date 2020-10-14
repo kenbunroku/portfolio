@@ -1,47 +1,129 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Shinchiro's Biography</title>
-    <link rel="stylesheet" href="./assets/css/remedy.css">
-    <link rel="stylesheet" href="./assets/css/style.css">
-</head>
+    <link rel="stylesheet" href="./assets/css/remedy.css" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+  </head>
 
-<body>
+  <body>
     <ul class="nav-bar">
       <li><a href="./index.html">SHINN</a></li>
       <li style="float: right"><a href="./about.html">About</a></li>
-      <!-- <li style="float: right"><a href="#about">Projects</a></li> -->
+      <li style="float: right"><a href="index.html">Projects</a></li>
     </ul>
-    
+
     <div>
-        <img class="bg" srcset="./assets/images/teleducation-1-360w.png 360w,
-             ./assets/images/teleducation-1-768w.png 768w, ./assets/images/teleducation-1-1440w.png 1440w" sizes="(max-width: 600px) 360px, (max-width: 800px) 768px, 1440px" src="./assets/images/teleducation-1-1440w.png" alt="Main image">
+      <img
+        class="bg"
+        srcset="
+          ./assets/images/teleducation-1-360w.png   360w,
+          ./assets/images/teleducation-1-768w.png   768w,
+          ./assets/images/teleducation-1-1440w.png 1440w
+        "
+        sizes="(max-width: 600px) 360px, (max-width: 800px) 768px, 1440px"
+        src="./assets/images/teleducation-1-1440w.png"
+        alt="Main image"
+      />
     </div>
 
-    <div class="wrapper content-container">
-        <div class="main-content">
-            <h2 class="content-title">Overview</h2>
-            <p>Teleducation is a concept that helps students solve physical constraints where they are dependent via telexistence technology. This is an individual project at ID that the students applied speculative design to design the future and created a prototype with digital technologies.</p>
-            <p>In the concept, students are able to use a remote robot to experience and learn in richer physical contexts and collaborate with other students who live in other environments, which is usually very hard for them because they are children.</p>
+    <main>
+      <div class="wrapper content-container">
+        <section class="main-content text-box">
+          <h2 class="content-title">Overview</h2>
+          <p>
+            Teleducation is a concept that helps students solve physical
+            constraints where they are dependent via telexistence technology.
+            This is an individual project at ID that the students applied
+            speculative design to design the future and created a prototype with
+            digital technologies.
+          </p>
+          <p>
+            In the concept, students are able to use a remote robot to
+            experience and learn in richer physical contexts and collaborate
+            with other students who live in other environments, which is usually
+            very hard for them because they are children.
+          </p>
+        </section>
+
+        <div class="three-grid-container">
+          <section>
+            <h4 class="content-title">Time</h4>
+            <p>Mar.2020 ~ May.2020 (9 weeks)</p>
+          </section>
+
+          <section>
+            <h4 class="content-title">Role</h4>
+            It is my individual project. After analyzing wireframes of current
+            movie apps, I've done rapid prototyping with Sketch.
+          </section>
+
+          <section>
+            <h4 class="content-title">Tools</h4>
+            <p>Arduino</p>
+            <p>C++</p>
+            <p>InDesign</p>
+            <p>Illustrator</p>
+          </section>
         </div>
 
-        <div class="grid-container">
-            <section>
-                <h3 class="content-title">Time</h3>
-                <p>Mar.2020 ~ May.2020 (9 weeks)</p>
-            </section>
+        <section class="main-content">
+          <h2 class="content-title">Problem statement</h2>
+          <img
+            src="./assets/images/teleducation-3.png"
+            alt="problem statement"
+          />
+          <img
+            src="./assets/images/teleducation-4.png"
+            alt="problem statement"
+          />
+        </section>
+      </div>
 
-            <section>
-                <h3 class="content-title">Role</h3>
-                <p>Secondary Research</p>
-                <p>Speculative Design</p>
-                <p>Rapid Prototyping</p>
-                <p>Visual Design of presentaion</p>
-            </section>
+      <div class="wide-wrapper">
+        <div class="hmw-question text-box">
+          How might we reduce learning constraints and allow students to
+          interact with broader physical resources via technologies?
         </div>
-    </div>
+      </div>
 
-</body>
+      <div class="wrapper content-container">
+        <section class="main-content">
+          <img
+            src="./assets/images/teleducation-6-900w.png"
+            alt="audience example"
+          />
+
+          <h2 class="content-title">System Diagram</h2>
+          <img
+            src="./assets/images/teleducation-7-900w.png"
+            alt="system diagram"
+          />
+          <img
+            src="./assets/images/teleducation-8-900w.png"
+            alt="system diagram"
+          />
+        </section>
+
+        <section class="main-content">
+          <h2 class="content-title">Solution</h2>
+          <img src="./assets/images/teleducation-9-900w.png" alt="solution1" />
+          <img src="./assets/images/teleducation-10-900w.png" alt="solution2" />
+          <img src="./assets/images/teleducation-11-900w.png" alt="solution2" />
+          <img src="./assets/images/teleducation-12-900w.png" alt="solution3" />
+          <img src="./assets/images/teleducation-13-900w.png" alt="solution4" />
+          <img src="./assets/images/teleducation-14-900w.png" alt="solution5" />
+        </section>
+
+        <section class="main-content">
+          <h2 class="contenttitle">Prototyping</h2>
+          <video controls>
+              <source src="./assets/movies/teleducation-movie-1.mov" type="video/mp4">
+          </video>
+        </section>
+      </div>
+    </main>
+  </body>
 </html>
