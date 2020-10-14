@@ -1,47 +1,123 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Shinchiro's Biography</title>
-    <link rel="stylesheet" href="./assets/css/remedy.css">
-    <link rel="stylesheet" href="./assets/css/style.css">
-</head>
-<body>
+    <link rel="stylesheet" href="./assets/css/remedy.css" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+  </head>
+
+  <body>
     <ul class="nav-bar">
       <li><a href="./index.html">SHINN</a></li>
       <li style="float: right"><a href="./about.html">About</a></li>
-      <!-- <li style="float: right"><a href="#about">Projects</a></li> -->
+      <li style="float: right"><a href="index.html">Projects</a></li>
     </ul>
-    
+
     <div>
-        <img class="bg" srcset="./assets/images/engardener-2-360w.png 360w,
-             ./assets/images/engardener-2-768w.png 768w, ./assets/images/engardener-2.png 1440w" sizes="(max-width: 600px) 360px, (max-width: 800px) 768px, 1440px" src="./assets/images/engardener-2.png" alt="Main image">
+      <img
+        class="bg"
+        srcset="
+          ./assets/images/engardener-2-360w.png  360w,
+          ./assets/images/engardener-2-768w.png  768w,
+          ./assets/images/engardener-2.png      1440w
+        "
+        sizes="(max-width: 600px) 360px, (max-width: 800px) 768px, 1440px"
+        src="./assets/images/engardener-2.png"
+        alt="Main image"
+      />
     </div>
 
-    <div class="wrapper content-container">
-        <div class="main-content">
-            <h2 class="content-title">Overview</h2>
-            <p>The product was made in an indivisual project at ID. The students were assigned to design a tool box for specific users. I designmed Engardener, a tool box for my father who starts home gardening.</p>
-            <p>After I made a rapid prototype with cardboards and papers, I created the final model by 3D rendering because the students were not allowed to use the shop due to COVID-19.</p>
-        </div>
+    <main class="wrapper content-container">
+      <section class="main-content text-box">
+        <h2 class="content-title">Overview</h2>
+        <p>
+          The product was made in an indivisual project at ID. The students were
+          assigned to design a tool box for specific users. I designmed
+          Engardener, a tool box for my father who starts home gardening.
+        </p>
+        <p>
+          After I made a rapid prototype with cardboards and papers, I created
+          the final model by 3D rendering because the students were not allowed
+          to use the shop due to COVID-19.
+        </p>
+      </section>
 
+      <div class="three-grid-container">
+        <section>
+          <h4 class="content-title">Time</h4>
+          <p>Mar.2020 ~ Apr.2020 (5 weeks)</p>
+        </section>
+
+        <section>
+          <h4 class="content-title">Role</h4>
+          It is my individual project. After learning about a material, I've
+          done the user research, prototyping and created a 3D rendered model.
+        </section>
+
+        <section>
+          <h4 class="content-title">Tools</h4>
+          <p>Fusion 360</p>
+          <p>InDesign</p>
+        </section>
+      </div>
+
+      <section class="main-content">
+        <h2>Process</h2>
+      </section>
+
+      <section class="main-content">
+        <h2>Research</h2>
+        <!-- <h4>Lerning about metals</h4> -->
+        <h4>Observing the user environment</h4>
+        <div class="grid-container middle-box">
+          <img src="./assets/images/engardener-3.JPG" alt="user environment" />
+          <img src="./assets/images/engardener-4.JPG" alt="user environment" />
+        </div>
+      </section>
+
+      <section class="main-content">
+        <h2>Prototyping</h2>
+        <div class="three-grid-container">
+          <div>
+            <h4>1st prototype</h4>
+            <img src="./assets/images/engardener-9.png" alt="prototype1" />
+          </div>
+
+          <div>
+            <h4>2nd prototype</h4>
+            <img src="./assets/images/engardener-10.png" alt="prototype2" />
+          </div>
+
+          <div>
+            <h4>3rd prototype</h4>
+            <img src="./assets/images/engardener-11.png" alt="prototype3" />
+          </div>
+        </div>
+      </section>
+
+      <section class="main-content">
+        <h2>3D rendering</h2>
         <div class="grid-container">
-            <section>
-                <h3 class="content-title">Time</h3>
-                <p>Mar.2020 ~ Apr.2020 (5 weeks)</p>
-            </section>
-
-            <section>
-                <h3 class="content-title">Role</h3>
-                <p>Secondary Research</p>
-                <p>Product Design</p>
-                <p>Rapid Prototyping</p>
-                <p>Visual Design of presentaion</p>
-            </section>
+          <img src="./assets/images/engardener-12.png" alt="3D model1" />
+          <img src="./assets/images/engardener-13.png" alt="3D model2" />
+          <img src="./assets/images/engardener-14.png" alt="3D model3" />
+          <img src="./assets/images/engardener-15.png" alt="3D model4" />
         </div>
+      </section>
 
-    </div>
+      <section class="main-content">
+        <h2>Fabrication drawing</h2>
+        <div class="two-grid-container">
+          <img src="./assets/images/engardener-16.png" alt="fabrication1" />
+          <img src="./assets/images/engardener-17.png" alt="fabrication2" />
+        </div>
+      </section>
 
-</body>
+      <section class="main-content">
+        <h2>Next step</h2>
+      </section>
+    </main>
+  </body>
 </html>
