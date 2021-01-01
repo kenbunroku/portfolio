@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+  <link type="text/css" rel="stylesheet" href="https://cdn.firebase.com/libs/firebaseui/3.5.2/firebaseui.css" />
+</head>
+
+<body>
+  <script src="https://www.gstatic.com/firebasejs/7.24.0/firebase-app.js"></script>
+
+  <script src="https://www.gstatic.com/firebasejs/7.24.0/firebase-analytics.js"></script>
+
+  <script src="https://www.gstatic.com/firebasejs/7.24.0/firebase-auth.js"></script>
+
+  <script src="https://cdn.firebase.com/libs/firebaseui/3.5.2/firebaseui.js"></script>
+
+  <script>
+    // Your web app's Firebase configuration
+    // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+    var firebaseConfig = {
+      apiKey: "AIzaSyD0HHnZTj2Rf_f0NgHrPjVQgKW-3o8m9SE",
+      authDomain: "portfolio-ad59b.firebaseapp.com",
+      databaseURL: "https://portfolio-ad59b.firebaseio.com",
+      projectId: "portfolio-ad59b",
+      storageBucket: "portfolio-ad59b.appspot.com",
+      messagingSenderId: "367917179577",
+      appId: "1:367917179577:web:85d72ea3de5795503d3168",
+      measurementId: "G-3F6DE6EDE0"
+    };
+    // Initialize Firebase
+    firebase.initializeApp(firebaseConfig);
+    firebase.analytics();
+  </script>
+
+  <div id="firebaseui-auth-container"></div>
+  <div id="loader">Loading...</div>
+
+  <script>
+    var ui = new firebaseui.auth.AuthUI(firebase.auth());
+
+    var uiConfig = {
+      callbacks: {
+        signInSuccessWithAuthResult: function (authResult, redirectUrl) {
+          return true;
+        },
+        uiShown: function () {
+          document.getElementById("loader").style.display = "none";
+        },
+      },
+      signInFlow: "popup",
+      signInSuccessUrl: "./prius.html",
+      signInOptions: [firebase.auth.EmailAuthProvider.PROVIDER_ID],
+    };
+    ui.start("#firebaseui-auth-container", uiConfig);
+  </script>
+</body>
+</html>
