@@ -1,312 +1,260 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Shinchiro Kuwahara Portfolio</title>
-    <link rel="stylesheet" href="./assets/css/remedy.css" />
-    <link rel="stylesheet" href="./assets/css/style.css" />
-  </head>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Shinchiro Kuwahara Portfolio</title>
+  <link rel="stylesheet" href="./assets/css/remedy.css" />
+  <link rel="stylesheet" href="./assets/css/style.css" />
+</head>
 
-  <body>
-    <ul class="nav-bar">
-      <li><a href="./index.html">SHINN</a></li>
-      <li style="float: right"><a href="./about.html">About</a></li>
-      <li style="float: right"><a href="index.html">Projects</a></li>
-    </ul>
+<body>
+  <header>
+    <div class="container">
+      <div class="area-logo-header">
+        <a href="" class="logo"><img src="./assets/images/bg-logo.svg" alt="logo"></a>
+      </div>
+      <nav class="nav-header">
+        <ul class="list-nav-header">
+          <li><a href="./about.html">Works</a></li>
+          <li><a href="./index.html">About</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
 
-    <div class="bg">
-      <img
-        srcset="
+  <div class="bg">
+    <img srcset="
           ./assets/images/essential-1-360w.png   360w,
           ./assets/images/essential-1-768w.png   768w,
           ./assets/images/essential-1-1440w.png 1440w
-        "
-        sizes="(max-width: 600px) 360px, (max-width: 800px) 768px, 1440px"
-        src="./assets/images/essential-1-1440w.png"
-        alt="Maing image"
-      />
+        " sizes="(max-width: 600px) 360px, (max-width: 800px) 768px, 1440px" src="./assets/images/essential-1-1440w.png" alt="Maing image" />
+  </div>
+
+  <div class="wrapper content-container">
+    <div class="main-content text-box">
+      <h2 class="content-title">Overview</h2>
+      <p>
+        Essential is AI-powered grocery delivery service that automatically
+        estimates food consumption and order foods that would be used up soon.
+        My design team created this concept for an internal competition at ID
+        sponsored by Google Waymo.
+      </p>
+      <p>
+        We considered not only UX/UI design but also dataset, backside system
+        and how we would leverage AI to solve complex problems.
+      </p>
     </div>
 
-    <main class="wrapper content-container">
-      <div class="main-content text-box">
-        <h2 class="content-title">Overview</h2>
-        <p>
-          Essential is AI-powered grocery delivery service that automatically
-          estimates food consumption and order foods that would be used up soon.
-          My design team created this concept for an internal competition at ID
-          sponsored by Google Waymo.
-        </p>
-        <p>
-          We considered not only UX/UI design but also dataset, backside system
-          and how we would leverage AI to solve complex problems.
-        </p>
+    <div class="grid-container">
+      <section>
+        <h3 class="content-title">Time</h3>
+        <p>Jun.2020 ~ Jul.2020 (7 weeks)</p>
+      </section>
+
+      <section>
+        <h3 class="content-title">Role</h3>
+        <p>Secondary Research</p>
+        <p>UX/UI Design</p>
+        <p>Data System Design</p>
+        <p>Visual Design of presentaion</p>
+      </section>
+
+      <section>
+        <h3 class="content-title">Team Member</h3>
+        <p>Alison Yang</p>
+        <p>Faye Sun</p>
+        <p>Jason Zhang</p>
+      </section>
+    </div>
+
+    <section class="main-content">
+      <h2 class="content-title">Problem Framing</h2>
+      <img src="./assets/images/essential-2-900w.png" alt="pie chart" />
+      <img src="./assets/images/essential-3-900w.png" alt="pain points" />
+      <img src="./assets/images/essential-4-900w.png" alt="covid19" />
+    </section>
+
+    <section class="main-content">
+      <h2 class="content-title">Key User Needs</h2>
+      <img src="./assets/images/essential-5-900w.png" alt="user-need" />
+    </section>
+
+    <section class="main-content">
+      <h2 class="content-title">Data System</h2>
+      <img src="./assets/images/essential-11-1000w.png" alt="roadmap">
+      <img src="./assets/images/essential-12-1000w.png" alt="system map">
+      <div class="my-contribution">
+        <h3>How did I contribute?</h3>
+        <p>I created drafts of the roadmap and the system diagram by summerizing what were discussed in the team. I polished the roadmap while the teammate finalized the system diagram.</p>
+        <h5>Draft of the roadmap</h5>
+        <img src="./assets/images/essential-20.png" alt="">
+        <h5>Draft of the datasystem diagram</h5>
+        <img src="./assets/images/essential-19.png" alt="draft">
+
+      </div>
+      <img src="./assets/images/essential-13-1000w.png" alt="food quantity dataset1">
+      <img src="./assets/images/essential-14-1000w.png" alt="food quantity dataset2">
+      <img src="./assets/images/essential-15-1000w.png" alt="food quantity rater">
+      <img src="./assets/images/essential-16-1000w.png" alt="health substitution dataset">
+      <img src="./assets/images/essential-17-1000w.png" alt="health substitution rater">
+    </section>
+
+    <section class="slideshow-container">
+      <h2 class="content-title">Prototyping</h2>
+      <h3>Onboarding Process</h3>
+      <!-- Full-width images with number and caption text -->
+      <div class="my-slides1 fade">
+        <video src="./assets/movies/essential-movie-1.mp4" autoplay loop></video>
       </div>
 
-      <div class="grid-container">
-        <section>
-          <h3 class="content-title">Time</h3>
-          <p>Jun.2020 ~ Jul.2020 (7 weeks)</p>
-        </section>
-
-        <section>
-          <h3 class="content-title">Role</h3>
-          <p>Secondary Research</p>
-          <p>UX/UI Design</p>
-          <p>Data System Design</p>
-          <p>Visual Design of presentaion</p>
-        </section>
-
-        <section>
-          <h3 class="content-title">Team Member</h3>
-          <p>Alison Yang</p>
-          <p>Faye Sun</p>
-          <p>Jason Zhang</p>
-        </section>
+      <div class="mySlides1 fade">
+        <video src="./assets/movies/essential-movie-2.m4v" autoplay loop></video>
       </div>
 
-      <section class="main-content">
-        <h2 class="content-title">Problem Framing</h2>
-        <img src="./assets/images/essential-2-900w.png" alt="pie chart" />
-        <img src="./assets/images/essential-3-900w.png" alt="pain points" />
-        <img src="./assets/images/essential-4-900w.png" alt="covid19" />
-      </section>
-
-      <section class="main-content">
-        <h2 class="content-title">Key User Needs</h2>
-        <img src="./assets/images/essential-5-900w.png" alt="user-need" />
-      </section>
-
-      <section class="main-content">
-          <h2 class="content-title">Data System</h2>
-          <img src="./assets/images/essential-11-1000w.png" alt="roadmap">
-          <img src="./assets/images/essential-12-1000w.png" alt="system map">
-          <img src="./assets/images/essential-13-1000w.png" alt="food quantity dataset1">
-          <img src="./assets/images/essential-14-1000w.png" alt="food quantity dataset2">
-          <img src="./assets/images/essential-15-1000w.png" alt="food quantity rater">
-          <img src="./assets/images/essential-16-1000w.png" alt="health substitution dataset">
-          <img src="./assets/images/essential-17-1000w.png" alt="health substitution rater">
-      </section>
-
-      <section class="slideshow-container">
-        <h2 class="content-title">Prototyping</h2>
-        <h3>Onboarding Process</h3>
-        <!-- Full-width images with number and caption text -->
-        <div class="mySlides1 fade">
-          <video
-            src="./assets/movies/essential-movie-1.mp4"
-            autoplay
-            loop
-          ></video>
-        </div>
-
-        <div class="mySlides1 fade">
-          <video
-            src="./assets/movies/essential-movie-2.m4v"
-            autoplay
-            loop
-          ></video>
-        </div>
-
-        <div class="mySlides1 fade">
-          <video
-            src="./assets/movies/essential-movie-3.m4v"
-            autoplay
-            loop
-          ></video>
-        </div>
-
-        <div class="mySlides1 fade">
-          <video
-            src="./assets/movies/essential-movie-4.m4v"
-            autoplay
-            loop
-          ></video>
-        </div>
-
-        <!-- Next and previous buttons -->
-        <a class="prev" onclick="plusSlides(-1, 0)">&#10094;</a>
-        <a class="next" onclick="plusSlides(1, 0)">&#10095;</a>
-        <br />
-
-        <!-- The dots/circles -->
-        <div style="text-align: center">
-          <span class="dot" onclick="currentSlide(1, 0)"></span>
-          <span class="dot" onclick="currentSlide(2,0)"></span>
-          <span class="dot" onclick="currentSlide(3,0)"></span>
-          <span class="dot" onclick="currentSlide(4,0)"></span>
-        </div>
-      </section>
-
-      <!-- Slideshow container -->
-      <section class="slideshow-container">
-        <h3>Food Quantity Prediction</h3>
-        <!-- Full-width images with number and caption text -->
-        <div class="mySlides2 fade">
-          <video
-            src="./assets/movies/essential-movie-5.m4v"
-            autoplay
-            loop
-          ></video>
-        </div>
-
-        <div class="mySlides2 fade">
-          <video
-            src="./assets/movies/essential-movie-6.m4v"
-            autoplay
-            loop
-          ></video>
-        </div>
-
-        <!-- Next and previous buttons -->
-        <a class="prev" onclick="plusSlides(-1, 1)">&#10094;</a>
-        <a class="next" onclick="plusSlides(1, 1)">&#10095;</a>
-        <br />
-
-        <!-- The dots/circles -->
-        <div style="text-align: center">
-          <span class="dot" onclick="currentSlide(1)"></span>
-          <span class="dot" onclick="currentSlide(2)"></span>
-        </div>
-      </section>
-
-      <section class="slideshow-container">
-        <h3>Just-in Delivery</h3>
-        <!-- Full-width images with number and caption text -->
-        <div class="mySlides3 fade">
-          <video
-            src="./assets/movies/essential-movie-7.m4v"
-            autoplay
-            loop
-          ></video>
-        </div>
-
-        <div class="mySlides3 fade">
-          <video
-            src="./assets/movies/essential-movie-8.m4v"
-            autoplay
-            loop
-          ></video>
-        </div>
-
-        <!-- Next and previous buttons -->
-        <a class="prev" onclick="plusSlides(-1, 2)">&#10094;</a>
-        <a class="next" onclick="plusSlides(1, 2)">&#10095;</a>
-        <br />
-
-        <!-- The dots/circles -->
-        <div style="text-align: center">
-          <span class="dot" onclick="currentSlide(1,1)"></span>
-          <span class="dot" onclick="currentSlide(2,1)"></span>
-        </div>
-      </section>
-
-      <section class="slideshow-container">
-        <h3>Healthier Substitution</h3>
-        <!-- Full-width images with number and caption text -->
-        <div class="mySlides4 fade">
-          <video
-            src="./assets/movies/essential-movie-9.m4v"
-            autoplay
-            loop
-          ></video>
-        </div>
-
-        <div class="mySlides4 fade">
-          <video
-            src="./assets/movies/essential-movie-10.m4v"
-            autoplay
-            loop
-          ></video>
-        </div>
-
-        <!-- Next and previous buttons -->
-        <a class="prev" onclick="plusSlides(-1, 3)">&#10094;</a>
-        <a class="next" onclick="plusSlides(1, 3)">&#10095;</a>
-        <br />
-
-        <!-- The dots/circles -->
-        <div style="text-align: center">
-          <span class="dot" onclick="currentSlide(1,1)"></span>
-          <span class="dot" onclick="currentSlide(2,1)"></span>
-        </div>
-      </section>
-
-      <h3>Prudent Budget Management</h3>
-      <video src="./assets/movies/essential-movie-11.m4v" autoplay loop></video>
-
-      <h2>Feedback system</h2>
-       <div class="slideshow-container">
-        <div class="mySlides5 fade">
-          <video
-            src="./assets/movies/essential-movie-12.m4v"
-            autoplay
-            loop
-          ></video>
-        </div>
-
-        <div class="mySlides5 fade">
-          <video
-            src="./assets/movies/essential-movie-13.m4v"
-            autoplay
-            loop
-          ></video>
-        </div>
-
-         <div class="mySlides5 fade">
-          <video
-            src="./assets/movies/essential-movie-14.m4v"
-            autoplay
-            loop
-          ></video>
-        </div>
-
-         <div class="mySlides5 fade">
-          <video
-            src="./assets/movies/essential-movie-15.m4v"
-            autoplay
-            loop
-          ></video>
-        </div>
-
-         <div class="mySlides5 fade">
-          <video
-            src="./assets/movies/essential-movie-16.m4v"
-            autoplay
-            loop
-          ></video>
-        </div>
-
-         <div class="mySlides5 fade">
-          <video
-            src="./assets/movies/essential-movie-17.m4v"
-            autoplay
-            loop
-          ></video>
-        </div>
-
-        <a class="prev" onclick="plusSlides(-1, 4)">&#10094;</a>
-        <a class="next" onclick="plusSlides(1, 4)">&#10095;</a>
-        <br />
-
-        <div style="text-align: center">
-          <span class="dot" onclick="currentSlide(1)"></span>
-          <span class="dot" onclick="currentSlide(2)"></span>
-          <span class="dot" onclick="currentSlide(3)"></span>
-          <span class="dot" onclick="currentSlide(4)"></span>
-          <span class="dot" onclick="currentSlide(5)"></span>
-          <span class="dot" onclick="currentSlide(6)"></span>
-        </div>
+      <div class="mySlides1 fade">
+        <video src="./assets/movies/essential-movie-3.m4v" autoplay loop></video>
       </div>
 
-      <h3>How do we evaluate the performance?</h3>
-      <img src="./assets/images/essential-18-1000w.png" alt="Success Metrics">
+      <div class="mySlides1 fade">
+        <video src="./assets/movies/essential-movie-4.m4v" autoplay loop></video>
+      </div>
 
-      <section class="main-content">
-          <h2 class="content-title">Next Step</h2>
-      </section>
-    </main>
+      <!-- Next and previous buttons -->
+      <a class="prev" onclick="plusSlides(-1, 0)">&#10094;</a>
+      <a class="next" onclick="plusSlides(1, 0)">&#10095;</a>
+      <br />
 
-    <script src="./assets/js/slide-show.js"></script>
-  </body>
+      <!-- The dots/circles -->
+      <div style="text-align: center">
+        <span class="dot" onclick="currentSlide(1, 0)"></span>
+        <span class="dot" onclick="currentSlide(2, 0)"></span>
+        <span class="dot" onclick="currentSlide(3, 0)"></span>
+        <span class="dot" onclick="currentSlide(4, 0)"></span>
+      </div>
+    </section>
+
+    <!-- Slideshow container -->
+    <section class="slideshow-container">
+      <h3>Food Quantity Prediction</h3>
+      <!-- Full-width images with number and caption text -->
+      <div class="mySlides2 fade">
+        <video src="./assets/movies/essential-movie-5.m4v" autoplay loop></video>
+      </div>
+
+      <div class="mySlides2 fade">
+        <video src="./assets/movies/essential-movie-6.m4v" autoplay loop></video>
+      </div>
+
+      <!-- Next and previous buttons -->
+      <a class="prev" onclick="plusSlides(-1, 1)">&#10094;</a>
+      <a class="next" onclick="plusSlides(1, 1)">&#10095;</a>
+      <br />
+
+      <!-- The dots/circles -->
+      <div style="text-align: center">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+      </div>
+    </section>
+
+    <section class="slideshow-container">
+      <h3>Just-in Delivery</h3>
+      <!-- Full-width images with number and caption text -->
+      <div class="mySlides3 fade">
+        <video src="./assets/movies/essential-movie-7.m4v" autoplay loop></video>
+      </div>
+
+      <div class="mySlides3 fade">
+        <video src="./assets/movies/essential-movie-8.m4v" autoplay loop></video>
+      </div>
+
+      <!-- Next and previous buttons -->
+      <a class="prev" onclick="plusSlides(-1, 2)">&#10094;</a>
+      <a class="next" onclick="plusSlides(1, 2)">&#10095;</a>
+      <br />
+
+      <!-- The dots/circles -->
+      <div style="text-align: center">
+        <span class="dot" onclick="currentSlide(1,1)"></span>
+        <span class="dot" onclick="currentSlide(2,1)"></span>
+      </div>
+    </section>
+
+    <section class="slideshow-container">
+      <h3>Healthier Substitution</h3>
+      <!-- Full-width images with number and caption text -->
+      <div class="mySlides4 fade">
+        <video src="./assets/movies/essential-movie-9.m4v" autoplay loop></video>
+      </div>
+
+      <div class="mySlides4 fade">
+        <video src="./assets/movies/essential-movie-10.m4v" autoplay loop></video>
+      </div>
+
+      <!-- Next and previous buttons -->
+      <a class="prev" onclick="plusSlides(-1, 3)">&#10094;</a>
+      <a class="next" onclick="plusSlides(1, 3)">&#10095;</a>
+      <br />
+
+      <!-- The dots/circles -->
+      <div style="text-align: center">
+        <span class="dot" onclick="currentSlide(1,1)"></span>
+        <span class="dot" onclick="currentSlide(2,1)"></span>
+      </div>
+    </section>
+
+    <h3>Prudent Budget Management</h3>
+    <video src="./assets/movies/essential-movie-11.m4v" autoplay loop></video>
+
+    <h2>Feedback system</h2>
+    <div class="slideshow-container">
+      <div class="mySlides5 fade">
+        <video src="./assets/movies/essential-movie-12.m4v" autoplay loop></video>
+      </div>
+
+      <div class="mySlides5 fade">
+        <video src="./assets/movies/essential-movie-13.m4v" autoplay loop></video>
+      </div>
+
+      <div class="mySlides5 fade">
+        <video src="./assets/movies/essential-movie-14.m4v" autoplay loop></video>
+      </div>
+
+      <div class="mySlides5 fade">
+        <video src="./assets/movies/essential-movie-15.m4v" autoplay loop></video>
+      </div>
+
+      <div class="mySlides5 fade">
+        <video src="./assets/movies/essential-movie-16.m4v" autoplay loop></video>
+      </div>
+
+      <div class="mySlides5 fade">
+        <video src="./assets/movies/essential-movie-17.m4v" autoplay loop></video>
+      </div>
+
+      <a class="prev" onclick="plusSlides(-1, 4)">&#10094;</a>
+      <a class="next" onclick="plusSlides(1, 4)">&#10095;</a>
+      <br />
+
+      <div style="text-align: center">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+        <span class="dot" onclick="currentSlide(4)"></span>
+        <span class="dot" onclick="currentSlide(5)"></span>
+        <span class="dot" onclick="currentSlide(6)"></span>
+      </div>
+    </div>
+
+    <h3>How do we evaluate the performance?</h3>
+    <img src="./assets/images/essential-18-1000w.png" alt="Success Metrics">
+
+    <section class="main-content">
+      <h2 class="content-title">Next Step</h2>
+    </section>
+  </div>
+
+  <script src="./assets/js/slide-show.js"></script>
+</body>
 </html>
