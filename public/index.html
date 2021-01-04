@@ -1,39 +1,68 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Shinichiro Kuwahara Portfolio</title>
-    <link rel="stylesheet" href="./assets/css/remedy.css" />
-    <link rel="stylesheet" href="./assets/css/style.css" />
-  </head>
-  <body>
-    <ul class="nav-bar">
-      <li><a href="./index.html">SHINN</a></li>
-      <li style="float: right"><a href="./about.html">About</a></li>
-      <li style="float: right"><a href="./index.html">Projects</a></li>
-    </ul>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Shinichiro Kuwahara Portfolio</title>
+  <link rel="stylesheet" href="./assets/css/remedy.css" />
+  <link rel="stylesheet" href="./assets/css/style.css" />
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Bitter:wght@200;300;400&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <div class="container">
+      <div class="area-logo-header">
+        <a href="./index.html" class="logo"><img src="./assets/images/bg-logo.svg" alt="logo"></a>
+      </div>
+      <nav class="nav-header">
+        <ul class="list-nav-header">
+          <li><a href="./index.html">Works</a></li>
+          <li><a href="./about.html">About</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
 
-    <main class="wrapper">
-      <h1>Hi, I'm SHINN</h1>
-      <h2>A researcher, a data analyst and a designer</h2>
-      <p class="text-box">
-        My background is data analysis and user research at
-        <a href="https://global.toyota/en/">Toyota</a>, and I'm a graduate
-        student of <a href="https://id.iit.edu/">Institute of Design</a> at
-        Illinois Tech.
-      </p>
+  <main class="home">
+    <div class="area-top-view">
+      <div class="container">
+        <h1>Hi, I'm SHIN</h1>
+        <h2>A researcher, a data analyst and a designer</h2>
+        <p>
+          My background is data analysis and user research at
+          <a href="https://global.toyota/en/">Toyota</a>, and I'm a graduate
+          student of <a href="https://id.iit.edu/">Institute of Design</a> at
+          Illinois Tech.
+        </p>
+      </div>
+    </div>
 
-      <div class="category-container">
-        <h2 class="category-name">Mobility</h2>
+    <!-- Mobility -->
+    <div class="container">
+      <section class="area-home-mobility">
+        <div class="head-home">
+          <h2 class="category-name">Mobility</h2>
+        </div>
+
         <div class="grid-container">
           <section class="project-container first">
             <p class="design-category">UX / UI Design, System Design</p>
+            <a href="https://observablehq.com/@shinichirokuwahara/transit-project">
+              <img src="./assets/images/transim-1-1080w.jpg" alt="Transim" />
+              <div class="project-desc">
+                <h2>Transim</h2>
+                <p>
+                  Transit simulator with d3.js to experiment policies in a mobility field
+                </p>
+              </div>
+            </a>
+          </section>
+
+          <section class="project-container second">
+            <p class="design-category">UX / UI Design, System Design</p>
             <a href="./essential.html">
-              <img
-                src="./assets/images/essential-1-1000w.png"
-                alt="Essential"
-              />
+              <img src="./assets/images/essential-1-1000w.png" alt="Essential" />
               <div class="project-desc">
                 <h2>Essential</h2>
                 <p>
@@ -44,9 +73,36 @@
             </a>
           </section>
 
-          <section class="project-container second">
+          <section class="project-container third">
+            <p class="design-category">UX / UI Design, System Design</p>
+            <a href="./essential.html">
+              <img src="./assets/images/sauvvi-1-600w.jpg" alt="SAUVVI" />
+              <div class="project-desc">
+                <h2>SAUVVI</h2>
+                <p>
+                  Semi-Autonomous Vehicle Visual Interface for energy efficient driving
+                </p>
+              </div>
+            </a>
+          </section>
+
+          <section class="project-container forth">
+            <p class="design-category">UX / UI Design</p>
+            <a href="./timetraveler.html">
+              <img src="./assets/images/timetraveler-1-500w.png" alt="Engardener" />
+              <div class="project-desc">
+                <h2>Time Traveler in Chicago</h2>
+                <p>
+                  An Augumented reality application that passengers in a buy
+                  enjoy the city's history.
+                </p>
+              </div>
+            </a>
+          </section>
+
+          <section class="project-container fifth">
             <p class="design-category">User Research</p>
-            <a href="./private/prius.html">
+            <a href="./prius.html">
               <img src="./assets/images/prius-1-500w.jpg" alt="Prius" />
               <div class="project-desc">
                 <h2>Insights of Alt. Fuel Car User</h2>
@@ -57,38 +113,24 @@
               </div>
             </a>
           </section>
-
-          <section class="project-container third">
-            <p class="design-category">UX / UI Design</p>
-            <a href="./private/timetraveler.html">
-              <img
-                src="./assets/images/timetraveler-1-500w.png"
-                alt="Engardener"
-              />
-              <div class="project-desc">
-                <h2>Time Traveler in Chicago</h2>
-                <p>
-                  An Augumented reality application that passengers in a buy
-                  enjoy the city's history.
-                </p>
-              </div>
-            </a>
-          </section>
         </div>
-      </div>
+      </section>
+    </div>
 
-      <div class="category-container">
-        <h2 class="category-name">Education</h2>
+    <!-- Education -->
+    <div class="container">
+      <section class="area-home">
+        <div class="head-home">
+          <h2 class="category-name">Education</h2>
+        </div>
+
         <div class="grid-container">
-          <section class="project-container first">
+          <section class="project-container third">
             <p class="design-category">
               Speculative Design, Digital & Physical Design
             </p>
             <a href="./teleducation.html">
-              <img
-                src="./assets/images/teleducation-2-1000w.png"
-                alt="Teleducation"
-              />
+              <img src="./assets/images/teleducation-1-768w.png" alt="Teleducation" />
               <div class="project-desc">
                 <h2>Teleducation</h2>
                 <p>
@@ -99,7 +141,23 @@
             </a>
           </section>
 
-          <section class="project-container second">
+          <section class="project-container forth">
+            <p class="design-category">
+              Speculative Design, Digital & Physical Design
+            </p>
+            <a href="./teleducation.html">
+              <img src="./assets/images/collab-1-600w.png" alt="Collab" />
+              <div class="project-desc">
+                <h2>Collab</h2>
+                <p>
+                  A remote robot that reduces physical learning constraints for
+                  students
+                </p>
+              </div>
+            </a>
+          </section>
+
+          <section class="project-container fifth">
             <p class="design-category">UX / UI Design</p>
             <a href="">
               <img src="./assets/images/flood-1.png" alt="Flood" />
@@ -115,9 +173,9 @@
             </a>
           </section>
 
-          <section class="project-container third">
+          <section class="project-container sixth">
             <p class="design-category">UX / UI Design</p>
-            <a href="./private/gozipedia.html">
+            <a href="./gozipedia.html">
               <img src="./assets/images/gozipedia-1.png" alt="Gozipedia" />
               <div class="project-desc">
                 <h2>Gozipedia</h2>
@@ -129,52 +187,67 @@
             </a>
           </section>
         </div>
+      </section>
+    </div>
+
+
+    <!-- Sustainable Society -->
+    <div class="container">
+      <div class="head-home">
+        <h2 class="category-name">Sustainable Society</h2>
       </div>
 
-      <div class="category-container">
-        <h2 class="category-name">Product</h2>
+      <div class="grid-container">
+        <section class="project-container first">
+          <a href="./engardener.html">
+            <img src="./assets/images/ikea-1-1080w.png" alt="IKEA" />
+            <div class="project-desc">
+              <h2>IKEA</h2>
+              <p>A toolbox for home gardeners</p>
+            </div>
+          </a>
+        </section>
+      </div>
+    </div>
+
+    <!-- Data Analysis & Coding -->
+    <div class="container">
+      <section class="area-home-mobility">
+        <div class="head-home">
+          <h2 class="category-name">Data Analysis / Coding</h2>
+        </div>
+
         <div class="grid-container">
-          <section class="project-container first">
-            <p class="design-category">Physical Design</p>
-            <a href="./engardener.html">
-              <img
-                src="./assets/images/engardener-1-1000w.png"
-                alt="Teleducation"
-              />
-              <div class="project-desc">
-                <h2>Engardener</h2>
-                <p>A toolbox for home gardeners</p>
-              </div>
-            </a>
-          </section>
-
-          <section class="project-container second">
-            <p class="design-category">Physical Design</p>
-            <a href="./slice.html">
-              <img src="./assets/images/slice-1-450w.png" alt="Flood" />
-              <div class="project-desc">
-                <h2>Slice</h2>
-                <p>A redefined food slice shooter</p>
-              </div>
-            </a>
-          </section>
-
           <section class="project-container third">
-            <p class="design-category">Physical Design</p>
-            <a href="./flectere.html">
-              <img src="./assets/images/flectere-1-500w.png" alt="Gozipedia" />
+            <p class="design-category">User Research</p>
+            <a href="./prius.html">
+              <img src="./assets/images/bless-you-1-622w.png" alt="Bless You" />
               <div class="project-desc">
-                <h2>Flactere</h2>
-                <p>A standing & sitting working desk</p>
+                <h2>Bless You!</h2>
+                <p>
+                  Quantitative & qualitative analysis to understand user
+                  insights and reevaluate a product core value.
+                </p>
               </div>
             </a>
           </section>
         </div>
-      </div>
-    </main>
+      </section>
+    </div>
+  </main>
 
-    <!-- The core Firebase JS SDK is always required and must be listed first -->
-    <script src="https://www.gstatic.com/firebasejs/7.23.0/firebase-app.js"></script>
+  <footer class="home">
+    <div class="container">
+      <ul class="list-sns">
+        <li class="linkedin"><a href="https://www.linkedin.com/in/shinichiro-kuwahara-ab1424191"></a></li>
+        <li class="instagram"><a href="https://www.instagram.com/kenbunroku/"></a></li>
+        <li class="facebook"><a href="https://www.facebook.com/shinichiro.kuwahara"></a></li>
+      </ul>
+    </div>
+  </footer>
 
-  </body>
+  <!-- The core Firebase JS SDK is always required and must be listed first -->
+  <script src="https://www.gstatic.com/firebasejs/7.23.0/firebase-app.js"></script>
+
+</body>
 </html>
