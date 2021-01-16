@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1080px" height="370px" viewBox="0 0 1170 382" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Page 1</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Bless-you" transform="translate(-121.000000, -6892.000000)">
+            <g id="Group-4" transform="translate(320.000000, 6892.000000)">
+                <rect id="Rectangle" fill="#45CCF1" x="0" y="0" width="271" height="63"></rect>
+                <text id="main.js" font-family="Helvetica-Bold, Helvetica" font-size="24" font-weight="bold" fill="#FBF600">
+                    <tspan x="94.1503906" y="40">main.js</tspan>
+                </text>
+            </g>
+            <g id="Group-5" transform="translate(1020.000000, 6892.000000)">
+                <rect id="Rectangle-Copy-3" fill="#45CCF1" x="0" y="0" width="271" height="63"></rect>
+                <text id="preloarder.js" font-family="Helvetica-Bold, Helvetica" font-size="24" font-weight="bold" fill="#FBF600">
+                    <tspan x="63.4589844" y="40">preloarder.js</tspan>
+                </text>
+            </g>
+            <g id="Group-7" transform="translate(670.000000, 6892.000000)">
+                <g id="Rectangle-Copy-6" fill="#45CCF1">
+                    <rect id="Rectangle-Copy-4" x="0" y="0" width="271" height="63"></rect>
+                </g>
+                <text id="game.js" font-family="Helvetica-Bold, Helvetica" font-size="24" font-weight="bold" fill="#FBF600">
+                    <tspan x="90.8105469" y="40">game.js</tspan>
+                </text>
+            </g>
+            <g id="Group-6" transform="translate(1020.000000, 7021.000000)">
+                <rect id="Rectangle-Copy-5" fill="#45CCF1" x="0" y="0" width="271" height="63"></rect>
+                <text id="player.js" font-family="Helvetica-Bold, Helvetica" font-size="24" font-weight="bold" fill="#FBF600">
+                    <tspan x="87.4589844" y="40">player.js</tspan>
+                </text>
+            </g>
+            <g id="Group-3" transform="translate(321.000000, 7179.000000)">
+                <rect id="Rectangle-Copy-2" fill="#45CCF1" x="0" y="0" width="271" height="63"></rect>
+                <text id="phaser.min.js" font-family="Helvetica-Bold, Helvetica" font-size="24" font-weight="bold" fill="#FBF600">
+                    <tspan x="58.7949219" y="40">phaser.min.js</tspan>
+                </text>
+            </g>
+            <text id="index.html" font-family="Helvetica-Bold, Helvetica" font-size="24" font-weight="bold" fill="#F25C13">
+                <tspan x="120.494141" y="6932">index.html</tspan>
+            </text>
+            <line x1="245.5" y1="6923.5" x2="320.5" y2="6923.5" id="Line" stroke="#979797" stroke-linecap="square"></line>
+            <g id="Group-9" transform="translate(282.000000, 6924.000000)" stroke="#979797" stroke-linecap="square">
+                <line x1="1" y1="285.5" x2="38.5" y2="284.75" id="Line-Copy-2"></line>
+                <line x1="0.5" y1="285.361607" x2="0.5" y2="0.638392857" id="Line-2"></line>
+            </g>
+            <line x1="591.5" y1="6923.5" x2="670" y2="6924" id="Line-Copy" stroke="#979797" stroke-linecap="square"></line>
+            <g id="Group-8" transform="translate(981.000000, 6923.000000)" stroke="#979797" stroke-linecap="square">
+                <line x1="0.5" y1="110.5" x2="38.5" y2="110.5" id="Line-Copy-3"></line>
+                <line x1="0.5" y1="110.5" x2="0.5" y2="0.5" id="Line-2-Copy"></line>
+            </g>
+            <line x1="941.5" y1="6923.5" x2="1020.5" y2="6923.5" id="Line-Copy-4" stroke="#979797" stroke-linecap="square"></line>
+            <text id="Animation-object" font-family="Helvetica-Light, Helvetica" font-size="20" font-weight="300" fill="#4D4D4D">
+                <tspan x="1079.97" y="7111">Animation object</tspan>
+            </text>
+            <text id="Phaser-library" font-family="Helvetica-Light, Helvetica" font-size="20" font-weight="300" fill="#4D4D4D">
+                <tspan x="394.15" y="7269">Phaser library</tspan>
+            </text>
+            <text id="Preload-visual-asset" font-family="Helvetica-Light, Helvetica" font-size="20" font-weight="300" fill="#4D4D4D">
+                <tspan x="1061.21" y="6982">Preload visual assets</tspan>
+            </text>
+            <text id="Add-physics-to-visua" font-family="Helvetica-Light, Helvetica" font-size="20" font-weight="300" fill="#4D4D4D">
+                <tspan x="678.24" y="6982">Add physics to visual assets</tspan>
+                <tspan x="686.18" y="7006">Create animation functions</tspan>
+            </text>
+        </g>
+    </g>
+</svg>
