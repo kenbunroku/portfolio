@@ -1,38 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Shinchiro's Biography</title>
-    <link rel="stylesheet" href="./assets/css/remedy.css" />
-    <link rel="stylesheet" href="./assets/css/style.css" />
-  </head>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Shinchiro's Biography</title>
+  <link rel="stylesheet" href="./assets/css/remedy.css" />
+  <link rel="stylesheet" href="./assets/css/style.css" />
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Bitter:wght@200;300;400&display=swap" rel="stylesheet">
+</head>
 
-  <body>
-    <ul class="nav-bar">
-      <li><a href="./index.html">SHINN</a></li>
-      <li style="float: right"><a href="./about.html">About</a></li>
-      <li style="float: right"><a href="index.html">Projects</a></li>
-    </ul>
+<body>
+  <header>
+    <div class="container">
+      <div class="area-logo-header">
+        <a href="./index.html" class="logo"><img src="./assets/images/bg-logo.svg" alt="logo"></a>
+      </div>
+      <nav class="nav-header">
+        <ul class="list-nav-header">
+          <li><a href="./index.html">Works</a></li>
+          <li><a href="./about.html">About</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
 
-    <div>
-      <img
-        class="bg"
-        srcset="
+  <div class="bg">
+    <img srcset="
           ./assets/images/teleducation-1-360w.png   360w,
           ./assets/images/teleducation-1-768w.png   768w,
           ./assets/images/teleducation-1-1440w.png 1440w
-        "
-        sizes="(max-width: 600px) 360px, (max-width: 800px) 768px, 1440px"
-        src="./assets/images/teleducation-1-1440w.png"
-        alt="Main image"
-      />
+        " sizes="(max-width: 600px) 360px, (max-width: 800px) 768px, 1440px" src="./assets/images/teleducation-1-1440w.png" alt="Main image" />
+    <div class="top-desc">
+      <h1>Teleducation</h1>
+      <p>A remote robot that reduces physical learning constraints for students</p>
     </div>
+  </div>
 
-    <main>
-      <div class="wrapper content-container">
-        <section class="main-content text-box">
-          <h2 class="content-title">Overview</h2>
+  <div class="container">
+    <section class="main-content">
+      <div class="head-home">
+        <h2 class="category-name">
+          Overview
+        </h2>
+      </div>
+      <div class="grid-3-container">
+        <div class="long-box1 overview">
           <p>
             Teleducation is a concept that helps students solve physical
             constraints where they are dependent via telexistence technology.
@@ -46,84 +59,157 @@
             with other students who live in other environments, which is usually
             very hard for them because they are children.
           </p>
-        </section>
-
-        <div class="three-grid-container">
-          <section>
-            <h4 class="content-title">Time</h4>
-            <p>Mar.2020 ~ May.2020 (9 weeks)</p>
-          </section>
-
-          <section>
-            <h4 class="content-title">Role</h4>
-            It is my individual project. After analyzing wireframes of current
-            movie apps, I've done rapid prototyping with Sketch.
-          </section>
-
-          <section>
-            <h4 class="content-title">Tools</h4>
-            <p>Arduino</p>
-            <p>C++</p>
-            <p>InDesign</p>
-            <p>Illustrator</p>
-          </section>
-        </div>
-
-        <section class="main-content">
-          <h2 class="content-title">Problem statement</h2>
-          <img
-            src="./assets/images/teleducation-3.png"
-            alt="problem statement"
-          />
-          <img
-            src="./assets/images/teleducation-4.png"
-            alt="problem statement"
-          />
-        </section>
-      </div>
-
-      <div class="wide-wrapper">
-        <div class="hmw-question text-box">
-          How might we reduce learning constraints and allow students to
-          interact with broader physical resources via technologies?
         </div>
       </div>
-
-      <div class="wrapper content-container">
-        <section class="main-content">
-          <img
-            src="./assets/images/teleducation-6-900w.png"
-            alt="audience example"
-          />
-
-          <h2 class="content-title">System Diagram</h2>
-          <img
-            src="./assets/images/teleducation-7-900w.png"
-            alt="system diagram"
-          />
-          <img
-            src="./assets/images/teleducation-8-900w.png"
-            alt="system diagram"
-          />
+      <div class="grid-3-container detail">
+        <section>
+          <h3 class="content-title">Time</h3>
+          <p>Mar.2020 ~ May.2020 (9 weeks)</p>
+        </section>
+        <section>
+          <h3 class="content-title">Role</h3>
+          <p>
+            It is my individual project. I was responsible for secondary research, speculative design, and prototyping
+          </p>
         </section>
 
-        <section class="main-content">
-          <h2 class="content-title">Solution</h2>
-          <img src="./assets/images/teleducation-9-900w.png" alt="solution1" />
-          <img src="./assets/images/teleducation-10-900w.png" alt="solution2" />
-          <img src="./assets/images/teleducation-11-900w.png" alt="solution2" />
-          <img src="./assets/images/teleducation-12-900w.png" alt="solution3" />
-          <img src="./assets/images/teleducation-13-900w.png" alt="solution4" />
-          <img src="./assets/images/teleducation-14-900w.png" alt="solution5" />
-        </section>
-
-        <section class="main-content">
-          <h2 class="contenttitle">Prototyping</h2>
-          <video controls>
-              <source src="./assets/movies/teleducation-movie-1.mov" type="video/mp4">
-          </video>
+        <section>
+          <h4 class="content-title">Tools</h4>
+          <p>Arduino</p>
+          <p>C++</p>
+          <p>InDesign</p>
+          <p>Illustrator</p>
         </section>
       </div>
-    </main>
-  </body>
+    </section>
+
+    <section class="main-content">
+      <div class="head-home">
+        <h2 class="category-name">Problem statement</h2>
+      </div>
+      <div class="grid-2-container">
+        <div>
+          <p class="desc">
+            Students have learning constraints that are dependent on their environments
+          </p>
+          <img src="./assets/images/teleducation/teleducation-1.svg" alt="problem statement" />
+        </div>
+        <div>
+          <p class="desc">Virtual technologies partially help students solve constraints. They don't cover the area related to the physical world</p>
+          <img src="./assets/images/teleducation/teleducation-2.svg" alt="problem statement" />
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <div class="bg-black">
+    <div class="container">
+      <p class="hmw-question">
+        How might we reduce learning constraints and allow students to
+        interact with broader physical resources via technologies?
+      </p>
+    </div>
+  </div>
+
+  <div class="container">
+    <section class="main-content">
+      <div class="head-home">
+        <h2 class="category-name">
+          System Diagram
+        </h2>
+      </div>
+      <section class="sub-content">
+        <h3 class="content-title">
+          Current System
+        </h3>
+        <div class="grid-3-container">
+          <p class="long-box1 desc">Students learn in each closed environment</p>
+        </div>
+        <img src="./assets/images/teleducation/teleducation-3.svg" alt="problem statement" />
+      </section>
+      <section class="sub-content">
+        <h3 class="content-title">
+          Future System
+        </h3>
+        <div class="grid-3-container">
+          <p class="long-box1 desc">
+            Students can interact with other environments via remote robots
+          </p>
+        </div>
+        <img src="./assets/images/teleducation/teleducation-4.svg" alt="problem statement" />
+      </section>
+    </section>
+
+    <section class="main-content">
+      <div class="head-home">
+        <h2 class="category-name">
+          Design Concept
+        </h2>
+      </div>
+      <div class="grid-3-container">
+        <h3>R2E2</h3>
+        <img src="./assets/images/teleducation/teleducation-5.svg" alt="" class="right-long-box1">
+
+        <h3>Course plan</h3>
+        <p class="long-box1 desc">
+          From 11-12 years old to high school, students go through 3 courses several times.
+          Students can choose their future career based on the experiences
+        </p>
+        <img src="./assets/images/teleducation/teleducation-9.svg" alt="" class="long-box1">
+        <p class="long-box1 desc">
+          Students can make physical products with flexible parts and make codes with an app
+        </p>
+      </div>
+      <img src="./assets/images/teleducation/teleducation-1.png" alt="">
+      <div class="grid-3-container">
+        <h4 class="center-desc">Plastic Boxes</h4>
+        <h4 class="center-desc">Plastic clip and wood sticks</h4>
+        <h4 class="center-desc">Coding puzzle</h4>
+      </div>
+
+      <section class="grid-3-container">
+        <h3 class="content-title">
+          Course Examples
+        </h3>
+        <img src="./assets/images/teleducation/teleducation-6.svg" alt="" class="long-box1">
+        <p class="vertical-center">
+          Building a student's own robot by manipulating robot arms from home via VR technology
+        </p>
+        <img src="./assets/images/teleducation/teleducation-7.svg" alt="" class="long-box1">
+        <p class="vertical-center">
+          Learning how to build wood products in forest areas from a craftsman
+        </p>
+        <img src="./assets/images/teleducation/teleducation-8.svg" alt="" class="long-box1">
+        <p class="vertical-center">
+          Building green infrastructures to create a more sustainable urban city
+        </p>
+      </section>
+    </section>
+    <section class="main-content">
+      <div class="head-home">
+        <h2 class="category-name">
+          Prototype
+        </h2>
+      </div>
+      <video width="700px" controls>
+        <source src="./assets/movies/teleducation.mp4" type="video/mp4">
+      </video>
+      <div class="grid-3-container">
+        <p class="long-box1 desc"></p>
+
+      </div>
+    </section>
+
+  </div>
+
+  <footer>
+    <div class="container">
+      <ul class="list-sns">
+        <li class="linkedin"><a href="https://www.linkedin.com/in/shinichiro-kuwahara-ab1424191"></a></li>
+        <li class="instagram"><a href="https://www.instagram.com/kenbunroku/"></a></li>
+        <li class="facebook"><a href="https://www.facebook.com/shinichiro.kuwahara"></a></li>
+      </ul>
+    </div>
+  </footer>
+</body>
 </html>
