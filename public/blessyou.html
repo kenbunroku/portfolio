@@ -31,7 +31,7 @@
         " sizes="(max-width: 600px) 360px, (max-width: 800px) 768px, 1440px" src="./assets/images/essential/essential-1-1440w.png" alt="Main image" class="prius" />
         <div class="top-desc">
             <h1>Bless You!</h1>
-            <p>AI-powered local delivery that keeps your kitchen stocked with the essentials.</p>
+            <p>JavaScript-based web game</p>
         </div>
     </div>
 
@@ -45,18 +45,9 @@
             <div class="grid-3-container">
                 <div class="long-box1 overview">
                     <p>
-                        Teleducation is a concept that helps students solve physical
-                        constraints where they are dependent via telexistence technology.
-                        This is an individual project at ID that the students applied
-                        speculative design to design the future and created a prototype with
-                        digital technologies.
+                        Bless You! is a vertical scrolling action game built with HTML and JavaScript. Through the project, I learned and developed basic delivery and prototyping skills of digital product.
                     </p>
-                    <p>
-                        In the concept, students are able to use a remote robot to
-                        experience and learn in richer physical contexts and collaborate
-                        with other students who live in other environments, which is usually
-                        very hard for them because they are children.
-                    </p>
+                    <p>Github link is <a href="http://github.com/kenbunroku/bless-you">here</a></p>
                 </div>
             </div>
             <div class="grid-3-container detail">
@@ -67,15 +58,14 @@
                 <section>
                     <h3 class="content-title">Role</h3>
                     <p>
-                        It is my individual project. After analyzing wireframes of current
-                        movie apps, I've done rapid prototyping with Sketch.
+                        It is my individual project. I was in charge of a game concept, visual and autio assets, and game development
                     </p>
+
                 </section>
                 <section>
                     <h4 class="content-title">Tools</h4>
-                    <p>Arduino</p>
-                    <p>C++</p>
-                    <p>InDesign</p>
+                    <p>HTML</p>
+                    <p>JavaScript (<a href="https://phaser.io/">Phaser</a>)</p>
                     <p>Illustrator</p>
                 </section>
             </div>
@@ -83,6 +73,12 @@
     </div>
 
     <div class="bg-black">
+        <div class="container">
+            <video width="700px" controls>
+                <source src="./assets/movies/game-record.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
 
     </div>
 
@@ -94,13 +90,9 @@
                 </h2>
             </div>
             <div class="grid-3-container">
-                <div class="long-box1">
+                <div class="long-box1 desc">
                     <p>
-                        Teleducation is a concept that helps students solve physical
-                        constraints where they are dependent via telexistence technology.
-                        This is an individual project at ID that the students applied
-                        speculative design to design the future and created a prototype with
-                        digital technologies.
+                        Bless You! is designed for action game fans who may love to play Super Mario for Donkey Kong. In addition, this game targets at people who like indie games that have simple game mechanism and consists of pixel arts rather than high-end games
                     </p>
                     <img src="./assets/images/bless-you/blessyou-2.png" alt="">
                 </div>
@@ -114,7 +106,7 @@
                 </h2>
             </div>
             <div class="grid-2-container sub-content">
-                <div>
+                <div class="desc">
                     <h3 class="content-title">
                         Story
                     </h3>
@@ -123,7 +115,8 @@
                         They never stop fighting against villain to save people. Yet, they are also humans whereas they have superpower. They are beyond fatigue and extremely exhausted due to never ending patrol activities.
                         One day, one of the superheroes gets a sick because of the chronic fatigue. His superpower is restricted to high jump only when he sneezes.
                     </p>
-                    <p>However, he must keep working to save people who need his help. Villains will not wait for him until he recovers from the illness. Now, he gets a call to rescue kidnapped citizens who is tied up on the rooftop of tall buildings. Villains set a trap to kill him.
+                    <p>
+                        However, he must keep working to save people who need his help. Villains will not wait for him until he recovers from the illness. Now, he gets a call to rescue kidnapped citizens who is tied up on the rooftop of tall buildings. Villains set a trap to kill him.
                     </p>
                     <p>
                         He cannot lose this challenge...
@@ -134,21 +127,27 @@
             <h3 class="content-title">
                 Game Mechanics
             </h3>
-            <div class="grid-3-container sub-content">
-                <p></p>
+            <div class="grid-3-container sub-content desc">
+                <div>
+                    <p>The player requires to go up to a top of each stage to save a kidnapped child from a villain. There are traps such as spike that damage the hero's life. The player has to avoid touching the traps 3 times.</p>
+                    <p>On the left top on the screen, there is a life gauge and a sneeze bar whose mecanism will be explained later.</p>
+                </div>
                 <div class="right-long-box1">
                     <img src="./assets/images/bless-you/blessyou-2.svg" alt="">
                 </div>
                 <div class="long-box1">
                     <img src="./assets/images/bless-you/blessyou-3.svg" alt="">
                 </div>
-                <p></p>
+                <div>
+                    <p>The sneeze bar endlessly goes to zero and back to full every 2 seconds. When it reaches zero, the hero does "Sneeze Jump" because he cannot control his power appropriately.</p>
+                    <p>The sneeze jump enables the hero to go up to a higher place when he is at the middle of normal jump, which gives the player a strategy to consider when to jump.</p>
+                </div>
             </div>
-            <div class="grid-2-container sub-content">
+            <div class="grid-3-container sub-content">
                 <h3 class="content-title">
                     Interaction
                 </h3>
-                <p class="long-box1"></p>
+                <p class="long-box1 desc">The player can move the hero with "W" -- Normal Jump, "A" -- Move Left, and "D" -- Move Right. Arrow keys are also available.</p>
             </div>
         </section>
 
@@ -163,7 +162,10 @@
                     Main Charactor Animation
                 </h3>
                 <div class="grid-3-container">
-                    <p class="long-box1 desc"></p>
+                    <div class="long-box1 desc">
+                        <p>I chose pixel art because not only I love the art as I have played video games since my childhood, but also I though that the player would focus on game playing. Seeking the right timing of normal jump requires concentration.</p>
+                        <p>I created sprite sheets with <a href="https://www.aseprite.org/">aseprite</a>, animated sprite editor & pixel art tool. Main 3 animations, "Stand", "Jump" and "Sneeze" were made.</p>
+                    </div>
                     <section class="box1">
                         <img src="./assets/images/bless-you/blessyou-3.png" alt="">
                         <h4 class="center-desc">Stand</h4>
@@ -183,8 +185,9 @@
                     Background
                 </h3>
                 <div class="grid-2-container">
-                    <div>
-                        <p></p>
+                    <div class="desc">
+                        <p>I created the game background with a tile set because it was easy to use patterns. The tile set was made with aseprite, and the tile map was created with <a href="https://www.mapeditor.org/">Tiled map editor</a>.</p>
+                        <p>Game level was taken into consideration when I made the background. I tried not making the stage too difficult since it would be the first stage. Also, I intended to put the elements to get the player understand the basic game mechanism and how to play.</p>
                         <img src="./assets/images/bless-you/blessyou-6.png" alt="">
                         <h4 class="center-desc">Tile set</h4>
                     </div>
@@ -201,7 +204,10 @@
             </div>
             <div class="sub-content">
                 <div class="grid-3-container">
-                    <p class="long-box1 desc"></p>
+                    <div class="long-box1 desc">
+                        <p>I used <a href="https://phaser.io/">Phaser</a>, HTML5 game framework for desktop and mobile, because it was suitable to create a pixel game.</p>
+                        <p>Below is a file structure that I applied a module style to keep it simple and easy to maintenance. The Phaser library is imported into index.html. The visual assets are preloaded in preloarder.js, animations are created in playerjs, and they are imported into game.js, a main JS file to add physics or make animation functions.</p>
+                    </div>
                 </div>
                 <img src="./assets/images/bless-you/blessyou-4.svg" alt="">
             </div>
@@ -209,20 +215,19 @@
                 <h3 class="content-title">
                     Double Jump Function
                 </h3>
-                <div class="grid-3-container">
-                    <p class="long-box1 desc">
-                    </p>
-                    <div class="box1">
-                        <p></p>
+                <div class="grid-3-container desc">
+                    <div>
+                        <p style="height: 120px;">Create a time event which causes "Sneeze Jump" every time the sneeze bar reaches zero</p>
                         <img src="./assets/images/bless-you/blessyou-8.png" alt="">
                     </div>
-                    <div class="box2">
-                        <p></p>
-                        <img src="./assets/images/bless-you/blessyou-9.png" alt="">
-                    </div>
-                    <div class="box3">
-                        <p></p>
+                    <div>
+                        <p style="height: 120px;">Code a function of "Sneeze Jump" that add a physical effect, and play its animation and sound</p>
                         <img src="./assets/images/bless-you/blessyou-10.png" alt="">
+                    </div>
+                    <div>
+                        <p style="height: 120px;">Use conditionals and "currentPlayerAnim" in a code of basic actions to differenciate the normal jump animation from that of sneeze jump
+                        </p>
+                        <img src="./assets/images/bless-you/blessyou-9.png" alt="">
                     </div>
                 </div>
             </div>
@@ -230,14 +235,13 @@
                 <h3 class="content-title">
                     Decrease Life Guage Function
                 </h3>
-                <div class="grid-3-container">
-                    <p class="long-box1 desc"></p>
+                <div class="grid-3-container desc">
                     <div class="long-box1">
-                        <p></p>
+                        <p style="height: 120px;">It was also challenging to make a function that would decrease the number of the hearts when the player touches the spike, which required me to understand the data structure. With "console.log", I detected a sprite of each heart stored in an array in a children object in the heart object. </p>
                         <img src="./assets/images/bless-you/blessyou-11.png" alt="">
                     </div>
                     <div>
-                        <p></p>
+                        <p style="height: 120px;">After detecting the location, I used "getChildren()" to reach to the array and delete one of the heart elements. I also used a conditional to restart the game when the array becomes empty.</p>
                         <img src="./assets/images/bless-you/blessyou-12.png" alt="">
                     </div>
                 </div>
