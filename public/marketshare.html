@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shinchiro Kuwahara Portfolio</title>
+    <link rel="stylesheet" href="./assets/css/remedy.css" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Bitter:wght@200;300;400&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <div class="area-logo-header">
+                <a href="./index.html" class="logo"><img src="./assets/images/bg-logo.svg" alt="logo"></a>
+            </div>
+            <nav class="nav-header">
+                <ul class="list-nav-header">
+                    <li><a href="./index.html">Works</a></li>
+                    <li><a href="./about.html">About</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <div class="bg">
+        <img srcset="
+          ./assets/images/marketshare/marketshare-1-1440w.jpg 1440w
+        " sizes="(max-width: 600px) 360px, (max-width: 800px) 768px, 1440px" src="./assets/images/marketshare/marketshare-1-1440w.jpg" alt="Main image" class="prius" />
+        <div class="top-desc">
+            <h1>Dashboard of Market Share Analysis</h1>
+            <p> An excel-based diagnose tool to analyze share change in the global automotive market</p>
+        </div>
+    </div>
+
+    <div class="container">
+        <section class="main-content">
+            <div class="head-home">
+                <h2 class="category-name">
+                    Overview
+                </h2>
+            </div>
+            <div class="grid-3-container">
+                <div class="long-box1 overview">
+                    <p>
+                        This was a comprehensive data dashboard that covered product, sales force, and brand power by country to analyze market share change in a global automotive market and consider product improvement.
+                    </p>
+                </div>
+            </div>
+            <div class="grid-3-container detail">
+                <section>
+                    <h3 class="content-title">Time</h3>
+                    <p>Oct.2017 ~ Mar.2019</p>
+                </section>
+                <section>
+                    <h3 class="content-title">Role</h3>
+                    <p>
+                        I was an original member in a team of two who made this dashboard, analyzed marketing data and its data structure, decided visualization, and created the report to present executives.
+                    </p>
+                </section>
+                <section>
+                    <h4 class="content-title">Tools</h4>
+                    <p>Excel</p>
+                </section>
+            </div>
+        </section>
+
+        <section class="main-content">
+            <div class="head-home">
+                <h2 class="category-name">Challenge</h2>
+            </div>
+
+            <div class="grid-3-container sub-content">
+                <div class="desc long-box1">
+                    <p>
+                        Before this project, I reported product satisfaction from customer surveys to discuss product improvement with the engineering dept., the marketing dept., and executives who were in charge of them to increase the market share.
+                    </p>
+                    <p>
+                        However, it was not easy for them to agree on the data and my conclusion because they wondered that there might have been other factors which affected the market share. I had to show a whole picture around the market share to get their agreement and have constructive discussions.</p>
+                </div>
+            </div>
+
+            <section class="sub-content">
+                <div class="head-home">
+                    <h2 class="category-name">Data Construction & Synthesis</h2>
+                </div>
+                <div class="grid-3-container">
+                    <img src="./assets/images/marketshare/marketshare-2.svg" alt="data structure" class="long-box1">
+                    <div class="desc">
+                        <p style="padding-top: 50px; padding-bottom: 100px;">
+                            First of all, I constructed a whole dataset from a big picture to details. I broke down the global market share change into that in each major country for the company to detect where problems exist.
+                        </p>
+                        <p>
+                            Synthesize product, sales, and brand data to analyze the market share in each country from comprehensive and broader points of view.
+                        </p>
+                        <p style="padding-bottom: 100px;">
+                            Their data sources are customer surveys and subscripted data from <a href="https://ihsmarkit.com/industry/automotive.html">IHS Markit</a>, one of the famous automotive data suppliers. I processed those data to make them the best match with the purpose and context.
+                        </p>
+                        <p>
+                            When the weighted average of customer satisfaction has a problem, dig it into main models and their features to grasp the problem more specifically.
+                        </p>
+                    </div>
+                </div>
+            </section>
+
+            <div class="head-home">
+                <h2 class="category-name">Data Visualization</h2>
+            </div>
+            <div class="sub-content">
+                <h2 class="sub-title">Market Share</h2>
+                <div class="grid-3-container">
+                    <div class="long-box1 desc">
+                        <p>I started the dashboard from the historical global sales and market share to show a whole picture first and make it easy to understand the situation considering the market share should be evaluated in its trend as they are relative data, not abusolute. And then, I broke them into the share in each country comparing with that of major competitors.</p>
+                        <p>In addition, at the left bottom, I also caluculated how the share change was caused by dividing a whole change into market volume change and market share change in each market. That helped to more clearly show the seriousness of the market share decrease in the major markets.</p>
+                    </div>
+
+                </div>
+                <img src="./assets/images/marketshare/marketshare-3.svg" alt="market share">
+                <p>* All data is fake because of confidentiality</p>
+            </div>
+
+            <div class="sub-content">
+                <h2 class="sub-title">Factor Analysis</h2>
+                <div class="grid-3-container">
+                    <div class="desc long-box1">
+                        I chose a table format that the charts were aligned by country x factor to make it easy for the audience to compare them across the countries, and to increase the credibility and persuasiveness of my analysis.
+                    </div>
+                </div>
+                <img src="./assets/images/marketshare/marketshare-4.svg" alt="factor analysis">
+                <p>* All data is fake because of confidentiality</p>
+            </div>
+
+            <div class="sub-content">
+                <h2 class="sub-title">Model Analysis</h2>
+                <div class="grid-3-container">
+                    <div class="desc long-box1">
+                        The same as the marke share page, I started from an overall satisfaction on a model, and jumped into satisfaction of each feature.
+                    </div>
+                </div>
+                <img src="./assets/images/marketshare/marketshare-5.svg" alt="customer satisfaction">
+                <p>* All data is fake because of confidentiality</p>
+            </div>
+
+            <section class="sub-content">
+                <div class="head-home">
+                    <h2 class="category-name">Result</h2>
+                </div>
+                <div class="grid-3-container">
+                    <p class="desc long-box1">
+                        The executives, the engineering dept., and the marketing dept. understood and agreed on the product issues. Until when I left the company, I saw them moving the discussion forward to how to improve the issues and to take marketing strategies to regain the market share.
+                    </p>
+                </div>
+            </section>
+        </section>
+    </div>
+</body>
+</html>
